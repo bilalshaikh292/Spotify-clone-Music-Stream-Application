@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>>
+    <div>
+        <video autoplay muted loop src="./video/pexels-mart-production-7566043 (1080p).mp4"></video>
+    </div>
+    <div class="header">
+        <div id="bgimg">
+            <img src="./images/bg.jpg" alt="">
+        </div>
+        <div class="navigations">
+
+            <div class="brand"><img src="./images/logo.png" alt="Spotify">
+                <p>Spotify</p>
+            </div>
+            <div class="tabs">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                        <li>Login</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="songList">
+            <marquee loop behavior="" direction="right">
+                <h1>Best Song Collection By Bilal Shaikh (From New to Old)</h1>
+            </marquee>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="0" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Marshmello & Anne-Marie - FRIENDS</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="1" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Benny Blanco, Halsey & Khalid - Eastside</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="2" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">DJ Snake - Let Me Love You ft. Justin Bieber</span>
+                        </div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="3" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">DJ Snake - Magenta Riddim</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="4" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span
+                                class="songname">K-391 & Alan Walker - Ignite (feat. Julie Bergan & Seungri)</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="5" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Give Me Some Sunshine</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="6" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Judaai Badlapur </span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="7" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Coke Studio Season 8 Tajdar-e-Haram Atif Aslam</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="8" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Hai Apna Dil To Awara  Sanam ft. Soogum Sookha</span></div>
+
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songlistplay">
+                        <div class="playbutton"><i id="9" class="fa-solid fa-circle-play fa-2xl"></i></div>
+                        <div class="songName"><span class="songname">Kisi Ki Muskurahaton Pe Ho Nisar</span></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./images/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Marshmello & Anne-Marie - FRIENDS</span>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
